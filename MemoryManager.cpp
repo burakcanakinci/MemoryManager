@@ -74,6 +74,7 @@ void MemoryManager::deallocate(int processId) {
 
 
 void MemoryManager::displayMemory() const {
+    std::cout << '\n';
     for (int blockIndex = 0; blockIndex < memory.size(); ++blockIndex) {
         std::cout << (memory[blockIndex] ? "X" : ".");
     }
