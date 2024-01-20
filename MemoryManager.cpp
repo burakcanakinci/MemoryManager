@@ -2,6 +2,11 @@
 
 MemoryManager::MemoryManager(int size) : memory(size, false) {}
 
+void MemoryManager::setMemorySize(int newSize) {
+    memory.resize(newSize, false);
+    std::cout << "Memory size is set to " << newSize << "." << '\n';
+}
+
 bool MemoryManager::allocateFirstFit(int processId, int size) {
     for (int blockStart = 0; blockStart < memory.size(); ++blockStart) {
         if (!memory[blockStart]) {

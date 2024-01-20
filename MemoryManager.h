@@ -7,9 +7,12 @@
 
 class MemoryManager {
 private:
-    std::vector<bool> memory; // Represents memory blocks (ture for allocated, false for free)
+    std::vector<bool> memory; // Represents memory blocks (true for allocated, false for free)
 public:
     MemoryManager(int size);
+
+    // Set memory size at runtime
+    void setMemorySize(int size);
 
     // Allocate memory using First Fit algorithm
     bool allocateFirstFit(int processId, int size);

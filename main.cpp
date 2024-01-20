@@ -2,17 +2,25 @@
 
 int main() {
     
+    
     int memorySize = 20;
     MemoryManager memoryManager(memorySize);
 
     int choice;
     do {
         std::cout << "\nMemory Manager Simulator Menu:\n";
-        std::cout << "1. Allocate (First Fit)\n2. Allocate (Best Fit)\n3. Deallocate\n4. Display Memory\n5. Exit\n";
+        std::cout << "0. Set memory size\n1. Allocate (First Fit)\n2. Allocate (Best Fit)\n3. Deallocate\n4. Display Memory\n5. Exit\n";
         std::cout << "Enter command: ";
         std::cin >> choice;
 
         switch(choice) {
+            case 0: {
+                        int newSize;
+                        std::cout << "Set memory size: ";
+                        std::cin >> newSize;
+                        memoryManager.setMemorySize(newSize); 
+                        break;
+                    }
             case 1: {
                         int processId, size;
                         std::cout << "Enter process ID (e.g 1) and size (e.g 2) for allocation: ";
