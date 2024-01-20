@@ -17,7 +17,7 @@ public:
     // Allocate memory using Best Fit algorithm
     bool allocateBestFit(int processId, int size);
 
-    // Deallocatte memory
+    // Deallocate memory
     void deallocate(int processId);
 
     // Display the current state of memory

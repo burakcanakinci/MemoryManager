@@ -1,0 +1,3 @@
+/mnt/d/CODE/ubuntu/first_embedded/build/CMakeFiles/MemoryManagerSimulator.dir
+/mnt/d/CODE/ubuntu/first_embedded/build/CMakeFiles/edit_cache.dir
+/mnt/d/CODE/ubuntu/first_embedded/build/CMakeFiles/rebuild_cache.dir
