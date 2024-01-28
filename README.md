@@ -66,12 +66,12 @@ Follow the on-screen menu to perform memory operations.
 
 ## Menu Options
 
-- 0. Set memory size: Set the size of the memory at runtime.
-- 1. Allocate (First Fit): Allocate memory for a process using the First Fit algorithm.
-- 2. Allocate (Best Fit): Allocate memory for a process using the Best Fit algorithm.
-- 3. Deallocate: Deallocate memory previously allocated for a process.
-- 4. Display Memory: Display the current state of memory.
-- 5. Exit: Exit the Memory Manager Simulator.
+0. Set memory size: Set the size of the memory at runtime.
+1. Allocate (First Fit): Allocate memory for a process using the First Fit algorithm.
+2. Allocate (Best Fit): Allocate memory for a process using the Best Fit algorithm.
+3. Deallocate: Deallocate memory previously allocated for a process.
+4. Display Memory: Display the current state of memory.
+5. Exit: Exit the Memory Manager Simulator.
  
 ## Example Scenario
 
