@@ -12,8 +12,7 @@ This is a simple C++ program that simulates a memory manager with the ability to
 - [Menu Options](#menu-options)
 - [Example Scenario](#example-scenario)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Features
 
 - Memory allocation using First Fit and Best Fit algorithms
