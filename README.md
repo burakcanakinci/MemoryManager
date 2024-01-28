@@ -35,7 +35,7 @@ This is a simple C++ program that simulates a memory manager with the ability to
 
 ```bash
 git clone https://github.com/burakcanakinci/MemoryManager
-cd memory-manager-simulator
+cd MemoryManager
 ```
 
 #### 2. Build the project:
