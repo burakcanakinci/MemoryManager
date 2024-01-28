@@ -74,13 +74,13 @@ Follow the on-screen menu to perform memory operations.
  
 ## Example Scenario
 
-1. Set memory size to 30.
-2. Allocate Process 1 (size: 5) using First Fit.
-3. Allocate Process 2 (size: 8) using Best Fit.
-4. Display current memory state.
-5. Deallocate Process 1.
-6. Display current memory state.
-7. Exit.
+- Set memory size to 30.
+- Allocate Process 1 (size: 5) using First Fit.
+- Allocate Process 2 (size: 8) using Best Fit.
+- Display current memory state.
+- Deallocate Process 1.
+- Display current memory state.
+- Exit.
 
 ## Contributing
 
