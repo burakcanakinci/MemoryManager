@@ -31,16 +31,16 @@ This is a simple C++ program that simulates a memory manager with the ability to
 
 ### Building the Project
 
-1. Clone the repository:
+#### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/burakcanakinci/MemoryManager
 cd memory-manager-simulator
 ```
 
-2. Build the project:
+#### 2. Build the project:
 
-- Using CMake:
+##### - Using CMake:
 ```bash
 mkdir build
 cd build
@@ -48,7 +48,7 @@ cmake ..
 make
 ```
 
-- Without CMake
+###### - Without CMake
 ```bash
 g++ -c MemoryManager.cpp -o MemoryManager.o
 g++ -c main.cpp -o main.o
