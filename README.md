@@ -32,7 +32,7 @@ This is a simple C++ program that simulates a memory manager with the ability to
 
 #### 1. Clone the repository:
 
-```bash
+```code
 git clone https://github.com/burakcanakinci/MemoryManager
 cd MemoryManager
 ```
@@ -40,7 +40,7 @@ cd MemoryManager
 #### 2. Build the project:
 
 ##### - Using CMake:
-```bash
+```code
 mkdir build
 cd build
 cmake ..
