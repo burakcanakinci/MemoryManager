@@ -2,7 +2,6 @@
 
 int main() {
     
-    
     int memorySize = 20;
     MemoryManager memoryManager(memorySize);
 
